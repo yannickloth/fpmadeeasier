@@ -16,7 +16,8 @@ to generate this file without the comments in this block.
   , "effect"
   , "lists"
   , "maybe"
-  , "prelude" ]
+  , "prelude"
+  , "tuples" ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }
