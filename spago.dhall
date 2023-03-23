@@ -11,13 +11,8 @@ When creating a new Spago project, you can use
 to generate this file without the comments in this block.
 -}
 { name = "fpmadeeasy"
-, dependencies = 
-  [ "console"
-  , "effect"
-  , "lists"
-  , "maybe"
-  , "prelude"
-  , "tuples" ]
+, dependencies =
+  [ "console", "effect", "lists", "maybe", "newtype", "prelude", "tuples" ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }

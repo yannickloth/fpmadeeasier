@@ -1,5 +1,5 @@
 -- | Module for chapter 5 of Functional Programming Made Easier: A Step-by-Step Guide
-module Ch5
+module Chapters.Ch5
   ( (!!)
   , (#)
   , ($)
@@ -31,7 +31,8 @@ module Ch5
   , takeWhile
   , test
   , uncons
-  ) where
+  )
+  where
 
 import Data.List (List(..), (:))
 import Data.Maybe (Maybe(..))
